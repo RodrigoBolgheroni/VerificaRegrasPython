@@ -116,4 +116,4 @@ def Main(cliente,tipoarquivo,server_mysql, user_mysql, password_mysql, bancodeda
             print(traceback.format_exc())
     print('Não á arquivos')
 # Executar a função Main
-Main('Heineken','Faturamento','dbarkerprod03.mysql.database.azure.com', 'arker_heineken_br_readonly', 'XHvCq1c9vE4B7jL2BtU5u4', 'arker_heineken_br')
+Main(cliente,tipoarquivo,server_mysql, user_mysql, password_mysql, bancodedados_mysql)
