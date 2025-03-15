@@ -20,11 +20,11 @@ def outputemail(dic):
         return string_final
 
 def enviar_email(string_final, rowtabelaorigem, row_credenciais):
-    smtp_server = "smtp.office365.com"
-    port = 587
-    sender_email = "no-reply@arker.com.br"
-    password = "Wad95097"
-    recipients = ["felipe.lima@neogrid.com"]
+    smtp_server = ""
+    port = 
+    sender_email = ""
+    password = ""
+    recipients = [""]
     # Criação da mensagem
     message = MIMEMultipart()
     message["From"] = sender_email
